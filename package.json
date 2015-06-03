@@ -1,0 +1,23 @@
+{
+  "name": "performace-analyst",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nherment/node-performance-analyst.git"
+  },
+  "author": "Nicolas Herment",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nherment/node-performance-analyst/issues"
+  },
+  "homepage": "https://github.com/nherment/node-performance-analyst",
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "mocha": "^2.2.5"
+  }
+}
