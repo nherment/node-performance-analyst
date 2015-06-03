@@ -11,9 +11,9 @@ var PerfAnalyst = require('performance-analyst')
 
 var perfAnalyst = PerfAnalyst.wrap(seneca, 'add')
 
-perfAnalyst.on('metric', function(functionInfo, timeInMilliseconds) {
+perfAnalyst.on('call', function(functionInfo, timeInMilliseconds) {
 
-  functionInfo // { fileName: '....', line: '....', name: '....' }
+  functionInfo // { fileName: '....', line: '....', functionName: '....' }
   timeInMilliseconds // the time it took the function until the callback was invoked
 
 })
